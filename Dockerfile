@@ -1,5 +1,5 @@
 FROM    alpine
-MAINTAINER Anton Lundin <glance@acc.umu.es>
+MAINTAINER Anton Lundin <anton.lundin@umu.se>
 
 RUN     apk add -U python py-pip
 ADD     requirements.txt /code/requirements.txt
